@@ -37,7 +37,7 @@ body {
 /*header section*/
 .hero_area {
   height: 98vh;
-  background-color: #b5caee;
+  background-color: 	#FFA500B3;
 }
 
 .sub_page .hero_area {
@@ -282,7 +282,7 @@ a:focus {
 
 .brand_section {
   text-align: center;
-  background-color: #c1dcf9;
+  background-color: #FFA500B3;
 }
 
 .brand_section h3 {
@@ -505,7 +505,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: center;
-  background-color: #c1dcf9;
+  background-color: #FFA500B3;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -580,7 +580,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #c1dcf9;
+  background-color: #FFA500B3;
 }
 
 .info_items {
