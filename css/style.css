@@ -2,6 +2,8 @@ body {
   font-family: "Poppins", sans-serif;
   color: #000000;
   background-color: #ffffff;
+  overflow-x: hidden;  
+
 }
 
 .layout_padding {
@@ -29,15 +31,21 @@ body {
 }
 
 .custom_heading {
-  font-size: 4.2rem;
+  font-size: 3rem;
   color: rgb(186, 61, 182);
   font-weight: bold;
+}
+
+@media (max-width:600px) {
+  .custom_heading {
+    font-size: 2.2rem;
+  }
 }
 
 /*header section*/
 .hero_area {
   height: 98vh;
-  background-color: 	#FFA500B3;
+  background-color:#FFA500B3;
 }
 
 .sub_page .hero_area {
@@ -744,6 +752,49 @@ a:focus {
   height: 150px;
 }
 
+iframe {
+  width: 100%;
+  height: 390px;
+  border: none;
+  padding: 10px;
+  margin: 10px
+}
+#title {
+  padding: 15px;
+  
+}
+
+@media  (max-width: 768px) {
+  iframe {
+    height: 300px;
+  }
+}
 
 
+body {
+  --sb-track-color: #232e33;
+  --sb-thumb-color: #c59246;
+  --sb-size: 8px;
+}
 
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 3px;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
