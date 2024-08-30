@@ -32,7 +32,7 @@ body {
 
 .custom_heading {
   font-size: 3rem;
-  color: rgb(186, 61, 182);
+  color: #1C1C1C;
   font-weight: bold;
 }
 
@@ -45,7 +45,7 @@ body {
 /*header section*/
 .hero_area {
   height: 98vh;
-  background-color:#FFA500B3;
+  background-color:#F4A261;
 }
 
 .sub_page .hero_area {
@@ -290,11 +290,11 @@ a:focus {
 
 .brand_section {
   text-align: center;
-  background-color: #FFA500B3;
+  background-color: #F4A261;
 }
 
 .brand_section h3 {
-  color: #fcfcfc;
+  color: #1C1C1C;
 }
 
 .brand_section .brand_item-container {
@@ -402,17 +402,18 @@ a:focus {
 }
 
 .brand_detail-box h5 {
+  border-radius: 22%;
+  background-color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
   color: #242425;
 }
 
 .brand_detail-box h5 span {
-  color: #179dfb;
+  color: #000000;
 }
 
 .brand_detail-box h6 {
-  text-transform: uppercase;
   font-weight: bold;
   color: #fcf9fc;
 }
@@ -513,7 +514,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: center;
-  background-color: #FFA500B3;
+  background-color: #FF8C00;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -588,7 +589,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #FFA500B3;
+  background-color: #1C1C1C;
 }
 
 .info_items {
