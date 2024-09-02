@@ -17,6 +17,7 @@
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -32,12 +33,12 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body >
   <div class="hero_area">
     <!-- header section strats -->
-    <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+    <header class="header_section" data-aos="fade-up">
+      <div class="container-fluid" >
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3" >
           <a class="navbar-brand" href="index.html">
             <h2 class="meyko">
               MEYKO
@@ -45,17 +46,17 @@
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon" ></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Anasayfa <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index">Anasayfa <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="watch.html"> Ürünlerimiz </a>
+                  <a class="nav-link" href="watch"> Ürünlerimiz </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link"href="#portfolio">Mağazalarımız</a>
@@ -71,8 +72,8 @@
     </header>
     <!-- end header section -->
     <!-- slider section -->
-    <section class=" slider_section position-relative">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <section class=" slider_section position-relative" >
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-aos="fade-up">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="slider_item-box">
@@ -92,10 +93,10 @@
                           <h2 style="font-family:Impact;letter-spacing:0px;color:#000000;">Türkiye'nin En Uygun Fiyatlı İçecek Adresi</h2>
                           <h1 style="font-family:Cursive;letter-spacing:3px;color:#000000;">Meyko'da Lezzet Ucuz, Keyif Bol!</h1>
                           <div class="d-flex">
-                            <a href="" class="slider-btn1 mr-3">
+                            <a href="watch" class="slider-btn1 mr-3">
                               Daha fazlası için
                             </a>
-                            <a href="" class="slider-btn2">
+                            <a href="#portfolio" id="magza" class="slider-btn2">
                               Mağazalarımız
                             </a>
                           </div>
@@ -108,6 +109,7 @@
               </div>
             </div>
           </div>
+          
           <div class="carousel-item">
             <div class="slider_item-box">
               <div class="slider_item-container">
@@ -161,8 +163,8 @@
 
     <!-- brand section -->
 
-    <section class="brand_section layout_padding2">
-      <div class="container">
+    <section class="brand_section layout_padding2" >
+      <div class="container" data-aos="fade-up">
         <div class="brand_heading">
           <h3 class="custom_heading">
             Ürünlerimiz
@@ -172,7 +174,7 @@
           </p>
         </div>
       </div>
-      <div class="container-fluid brand_item-container">
+      <div class="container-fluid brand_item-container" data-aos="fade-up">
         <div class="brand_item-box">
           <div class="brand_img-box  item-1">
             <a href="">
@@ -183,7 +185,7 @@
             <h5>
               ₺<span> 35 </span>
             </h5>
-            <h6 class="">
+            <h6 class="" style="color: black">
               Kızılay 6'lı Sade Soda
             </h6>
           </div>
@@ -198,7 +200,7 @@
             <h5>
               ₺<span> 40 </span>
             </h5>
-            <h6 class="">
+            <h6 class="" style="color: black">
               Erikli 5LT Su
             </h6>
           </div>
@@ -213,7 +215,7 @@
             <h5>
               ₺<span> 40 </span>
             </h5>
-            <h6 class="">
+            <h6 class="" style="color: black">
               Kızılay 6'lı Limonlu Soda
             </h6>
           </div>
@@ -226,10 +228,10 @@
           </div>
           <div class="brand_detail-box">
             <h5>
-              ₺<span> 40 </span>
+              ₺<span> 35 </span>
             </h5>
-            <h6 class="">
-              Vişne / Karadut / Limonata Zeve
+            <h6 class="" style="color: black">
+              Abant 2'li 5LT Su
             </h6>
           </div>
         </div>
@@ -243,25 +245,26 @@
             <h5>
               ₺<span> 40 </span>
             </h5>
-            <h6 class="">
+            <h6 class="" style="color: black">
               Zeve Karadut
             </h6>
           </div>
         </div>
       </div>
 
-      <button class="more-button">Hepsini Göster</button>
+      <a href="watch"><button class="more-button">Hepsini Göster</button></a>
 
     </section>
 
-    <section class="content-section" id="portfolio">
-      <div class="container-fluid">
+    <section class="content-section" id="portfolio" data-aos="fade-up">
+      <div class="container-fluid" style="background-color: #F4A261;">
           <div class="content-section-heading text-center">
               <h3 class="custom_heading text-secondary mb-2" id="title">Mağazalarımız</h3>
           </div>
+
           <div class="row gx-0">
-              <div class="col-lg-6">
-                  <a class="portfolio-item" href="gryffindor.html" target="_blank">
+              <div class="col-lg-6" >
+                  <a class="portfolio-item" href="" target="_blank">
                       <div class="caption">
                           <div class="caption-content">
                           </div>
@@ -270,7 +273,7 @@
                   </a>
               </div>
               <div class="col-lg-6">
-                  <a class="portfolio-item" href="ravenclaw.html" target="_blank">
+                  <a class="portfolio-item" href="" target="_blank">
                       <div class="caption">
                           <div class="caption-content">
                           </div>
@@ -279,7 +282,7 @@
                   </a>
               </div>
               <div class="col-lg-6">
-                  <a class="portfolio-item" href="slytherin.html" target="_blank">
+                  <a class="portfolio-item" href="" target="_blank">
                       <div class="caption">
                           <div class="caption-content">
                           </div>
@@ -288,7 +291,7 @@
                   </a>
               </div>
               <div class="col-lg-6">
-                  <a class="portfolio-item" href="hufflepuff.html" target="_blank">
+                  <a class="portfolio-item" href="" target="_blank">
                       <div class="caption">
                           <div class="caption-content">
 
@@ -297,14 +300,19 @@
                       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6023.294451167577!2d29.090895!3d40.989205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac7cd18d86889%3A0x31818312c901f6d3!2zWWVuaSBTYWhyYSwgQWvEsW5jxLFsYXIgU2suIE5vOjQsIDM0NzQ2IEF0YcWfZWhpci_EsHN0YW5idWwsIFTDvHJraXll!5e0!3m2!1str!2sus!4v1724843580406!5m2!1str!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                   </a>
               </div>
+              
           </div>
+
+
+
       </div>
       </div>
+      
   </section>
 
 
   <!-- info section -->
-  <section class="info_section layout_padding">
+  <section class="info_section layout_padding" data-aos="fade-up">
     <div class="container">
       <div class="info_items">
         <a href="">
@@ -362,7 +370,12 @@
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1200, // Animasyon süresi
+});
+</script>
 </body>
 
 </html>

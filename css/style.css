@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   color: #000000;
@@ -46,6 +50,7 @@ body {
 .hero_area {
   height: 98vh;
   background-color:#F4A261;
+  background: url(https://media.discordapp.net/attachments/1213638311416041494/1279957906653188099/Adsz_tasarm_15.png?ex=66d65531&is=66d503b1&hm=2f7fa5139e4c6f4e3b6eddabe5717a66a75cb3e299ac85c633667485160f5903&=&format=webp&quality=lossless&width=1202&height=676);
 }
 
 .sub_page .hero_area {
@@ -290,7 +295,8 @@ a:focus {
 
 .brand_section {
   text-align: center;
-  background-color: #F4A261;
+  background-color: #ffffff;
+
 }
 
 .brand_section h3 {
@@ -333,7 +339,7 @@ a:focus {
 }
 
 .brand_img-box.item-4 {
-  background-image: url(../images/item-4.jpg);
+  background-image: url(../images/abant.png);
 }
 
 .brand_img-box.item-5 {
@@ -715,7 +721,7 @@ a:focus {
   overflow: hidden;
   border-radius: 5px;
   border: none;
-  background-color: #988881
+  background-color: #dc3545
 }
 .more-button:hover {
   border-radius: 5px;
@@ -760,9 +766,10 @@ iframe {
   padding: 10px;
   margin: 10px
 }
+
 #title {
-  padding: 15px;
-  
+  padding-top: 45px;
+  padding-bottom: 23px;
 }
 
 @media  (max-width: 768px) {
@@ -770,7 +777,6 @@ iframe {
     height: 300px;
   }
 }
-
 
 body {
   --sb-track-color: #232e33;
@@ -788,7 +794,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: var(--sb-thumb-color);
+  background: #dc3545;
   border-radius: 3px;
   
 }
