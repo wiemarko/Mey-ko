@@ -82,7 +82,7 @@ ob_start();
     <!-- end header section -->
 
   </div>
-  <div class="bg" >
+  <div class="bg" > 
 
 
     <!-- brand section -->
