@@ -50,7 +50,7 @@ body {
 .hero_area {
   height: 98vh;
   background-color:#F4A261;
-  background: url(https://media.discordapp.net/attachments/1213638311416041494/1279957906653188099/Adsz_tasarm_15.png?ex=66d65531&is=66d503b1&hm=2f7fa5139e4c6f4e3b6eddabe5717a66a75cb3e299ac85c633667485160f5903&=&format=webp&quality=lossless&width=1202&height=676);
+  background: url(/images/bgg.png);
 }
 
 .sub_page .hero_area {
@@ -387,16 +387,16 @@ a:focus {
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
-}
+} 
 
 .brand_img-box:hover {
   cursor: pointer;
-}
+} 
 
 .brand_img-box:hover::before {
   -webkit-transform: translateY(0);
           transform: translateY(0);
-}
+} 
 
 .brand_img-box:hover a {
   display: inline-block;

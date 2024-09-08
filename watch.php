@@ -82,7 +82,7 @@ ob_start();
     <!-- end header section -->
 
   </div>
-  <div class="bg" > 
+  <div class="bg" >
 
 
     <!-- brand section -->
@@ -174,14 +174,6 @@ ob_start();
 
   <!-- end info_section -->
 
-  <!-- footer section -->
-  <section class="container-fluid footer_section">
-    <p>
-      © 2020 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
-    </p>
-  </section>
-  <!-- footer section -->
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
